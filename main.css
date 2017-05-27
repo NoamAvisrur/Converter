@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    font-family: 'Baloo Bhaina', cursive;
+}
+#container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #dfdce3;
+}
+header {
+    min-height: 25vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+}
+#result {
+    width: 50%;
+}
+footer{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+footer span{
+    font-size: 3rem;
+    font-family: 'Baloo Bhaina', cursive;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+#show_result {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+    border-width: 1px 1px 1px 0px;
+    border-color: #bbb;
+    border-style: solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+.result_header {
+    height: 15vh;
+    background-color: #4abdac;
+}
+.result {
+    font-size: 4rem;
+}
+form {
+    width: 50%;
+}
+button {
+    width: 33.3%;
+    border: none;
+    outline: none;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 15px 15px 0 0;
+}
+button img{
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
+#currency{
+    background-color: #4abdac;
+}
+#weight {
+    background-color: #fc4a1a;
+}
+#length {
+    background-color: #f7b733;
+}
+
+input[type='text'] {
+    height: 40vh; 
+    box-sizing: border-box;
+    border-width: 1px 1px 1px 1px;
+    border-color: #bbb;
+    border-style: solid;
+    text-align: center;
+    font-size: 4rem;
+    outline: none;
+    width: 100%;
+    font-family: 'Baloo Bhaina', cursive;
+}
+input::-webkit-input-placeholder {
+    font-family: 'Baloo Bhaina', cursive;
+}
+select {
+    border-radius: 3px;
+    border: none;
+}
+#check_currency{
+    height: 75vh;
+    background-color: #4abdac;
+    border-radius: 0 0 15px 15px;
+}
+#check_currency > div, #check_whight > div, #check_length > div {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#check_whight{
+    height: 75vh;
+    background-color: #fc4a1a;
+    border-radius: 0 0 15px 15px;
+}
+#check_length{
+    height: 75vh;
+    background-color: #f7b733;
+    border-radius: 0 0 15px 15px;
+}
+.undisplay {
+    display: none;
+}

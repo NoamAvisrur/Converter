@@ -1,0 +1,62 @@
+@media screen and (max-width: 650px) {
+    #container {
+        width: 95%;
+    } 
+    button{
+        font-size: 1rem;
+    }
+    main{
+        display: block;
+    }
+    form{
+        width: 100%;
+    }
+    #result{
+        width: 100%;
+    }
+    #show_result{
+        border-width: 1px 1px 1px 1px;
+        height: 30vh;
+    }
+    .result_header{
+        height: 5vh;
+    }
+    #check_currency, #check_whight, #check_length{
+        height: 45vh;
+        border-radius: 0px;
+    }
+    label{
+        text-align: center;
+    }
+    input[type="text"]{
+        height: 30vh;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 3rem;
+    }
+    footer span{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 920px) {
+    #container {
+        width: 95%;
+    }  
+    button{
+        font-size: 1.5rem;
+    }
+    input[type="text"], .result{
+        font-size: 3rem;
+    }
+    footer span{
+        font-size: 2rem;
+    }
+    label{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1100px) {
+    #container {
+        width: 90%;
+    }    
+}
